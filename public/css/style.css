@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+nav ul li a {
+    line-height: 80px;
+    color: #6b6b6b;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+    text-decoration: none;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+nav.black ul li a {
+    color: #e2edff;
+    line-height: 60px;
+}
+
+nav.black nav ul li a.active {
+    color: white;
+    background: #f00;
+}
+
+nav.black {
+    background: rgba(0, 0, 0, .8);
+    height: 80px;
+    padding: 10px 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 9999;
+}
+
+nav .kiri {
+    float: left;
+    text-decoration: none;
+}
+
+nav .kiri {
+    float: left;
+    transition: 0.5s;
+    line-height: 80px;
+    text-decoration: none;
+}
+
+nav .kiri h3 {
+    line-height: 80px;
+    color: #6b6b6b;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+    text-decoration: none;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+nav .kiri h3 a {
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+nav.black h3 {
+    color: #e2edff;
+    line-height: 50px;
+}
+
+#darkmode {
+    z-index: 9999;
+}
